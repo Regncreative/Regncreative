@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="248" viewBox="0 0 1100 248" role="img" aria-label="Regn Software">
+  <rect width="1100" height="248" fill="none"/>
+  <rect x="0" y="36" width="36" height="4" fill="#8A7048"/>
+  <rect x="0" y="48" width="26" height="4" fill="#8A7048" opacity="0.7"/>
+  <rect x="0" y="60" width="16" height="4" fill="#8A7048" opacity="0.4"/>
+  <text x="56" y="58" fill="#8A7048" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" letter-spacing="7">REGN SOFTWARE</text>
+  <text x="0" y="128" fill="#1F2328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="34" font-weight="600">Software / Products / Visual Systems</text>
+  <text x="0" y="168" fill="#656D76" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16">Independent product studio. Windows applications, web products, and the public surfaces they ship with.</text>
+  <text x="0" y="194" fill="#656D76" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16">Designed and engineered as one piece of work. Sinan &#x00D6;z.</text>
+  <rect x="0" y="226" width="1100" height="1" fill="#D0D7DE"/>
+</svg>
