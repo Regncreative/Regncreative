@@ -1,128 +1,85 @@
-<img src="./assets/mark.svg" alt="Regn" width="40" height="28">
+<img src="./assets/mark.svg" alt="Regn" width="32" height="22">
 
 **REGN SOFTWARE**
 
 # Software / Products / Visual Systems
 
-Independent product studio. Windows applications, web products, and the public surfaces they ship with — designed and engineered as one piece of work.
+Independent product studio. Windows applications, web products, and the visual systems they ship with — specified as one discipline.
 
 [Website](https://www.regnsoftware.com) · [GitHub](https://github.com/Regncreative) · [LinkedIn](https://www.linkedin.com/in/ozsinan)
 
-## Currently building
+<small>SELECTED PRODUCTS</small>
 
-### Pulse
+<small>01</small>
+
+### PULSE
 
 Windows observability
 
-Read-only diagnostics: Event Log activity in plain language, live system health, hardware inventory, and local reports. Observation only. Nothing leaves the machine.
+Read-only system diagnostics for Windows. Event Log activity in plain language, live system health, hardware inventory, and local reports. Observation only. Nothing leaves the machine.
 
-`Flutter` `C++20` `Win32`
+`Flutter` · `C++20` · `Win32`
 
-[Repository](https://github.com/Regncreative/Pulse) · [Website](https://pulse.regncreative.com)
+WINDOWS · SHIPPED
 
-### Stash
+[Repository](https://github.com/Regncreative/Pulse) → [Website](https://pulse.regncreative.com) →
+
+---
+
+<small>02</small>
+
+### STASH
 
 File shelf for Windows
 
-Collect, organize, and drag files from the system tray. References only — files stay on disk. Built to sit in Fluent Windows 11 chrome, not as a typical tray utility.
+Collect, organize, and drag files from the system tray. References only — files stay where they are on disk. Built to sit in Fluent Windows 11 chrome, not as a typical tray utility.
 
-`Electron` `React` `TypeScript`
+`Electron` · `React` · `TypeScript`
 
-[Repository](https://github.com/Regncreative/Stash) · [Website](https://stash.regncreative.com)
+WINDOWS · SHIPPED
 
-### Fiyat Avcısı
+[Repository](https://github.com/Regncreative/Stash) → [Website](https://stash.regncreative.com) →
+
+---
+
+<small>03</small>
+
+### FIYAT AVCISI
 
 E-commerce price intelligence
 
 Track products, store price history, and fire alerts on a target price or percent drop. Auth, dashboard, workers, and a multi-strategy crawler — a product stack, not a scraper script.
 
-`React` `Express` `PostgreSQL` `Redis`
+`React` · `Express` · `PostgreSQL` · `Redis`
 
-[Repository](https://github.com/Regncreative/fiyat-avcisi) · [Website](https://fiyatavcisi.com) · [App](https://app.fiyatavcisi.com)
+WEB · LIVE
 
-## Products
+[Repository](https://github.com/Regncreative/fiyat-avcisi) → [Website](https://fiyatavcisi.com) → [App](https://app.fiyatavcisi.com) →
 
-### Pulse
+---
 
-<a href="https://github.com/Regncreative/Pulse">
-  <img src="https://raw.githubusercontent.com/Regncreative/Pulse/master/docs/readme/timeline.png" alt="Pulse Timeline — live Event Log events in plain language" width="100%">
-</a>
+<small>STACK</small>
 
-Read-only Windows observability. Events you can understand, not logs you decode.
+**Desktop** — Flutter · C++ · Win32 · Electron
 
-`Flutter` `C++20` `Win32`
+**Web** — TypeScript · React · Next.js · Vite
 
-[Repository](https://github.com/Regncreative/Pulse) · [Website](https://pulse.regncreative.com)
+**Backend** — Node.js · Express
 
-### Stash
+**Data** — PostgreSQL · Redis · SQLite
 
-<a href="https://github.com/Regncreative/Stash">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Regncreative/Stash/main/docs/panel-dark.jpg">
-    <img src="https://raw.githubusercontent.com/Regncreative/Stash/main/docs/panel-light.jpg" alt="Stash panel — file shelf for Windows" width="100%">
-  </picture>
-</a>
-
-A modern file shelf for Windows — collect, organize, and drag files from the system tray.
-
-`Electron` `React` `TypeScript`
-
-[Repository](https://github.com/Regncreative/Stash) · [Website](https://stash.regncreative.com)
-
-### Fiyat Avcısı
-
-<a href="https://github.com/Regncreative/fiyat-avcisi">
-  <img src="https://raw.githubusercontent.com/Regncreative/fiyat-avcisi/main/docs/dashboard.png" alt="Fiyat Avcısı dashboard — price tracking and alerts" width="100%">
-</a>
-
-Price tracking, alerts, and a dashboard for e-commerce products.
-
-`React` `Express` `PostgreSQL` `Redis`
-
-[Repository](https://github.com/Regncreative/fiyat-avcisi) · [Website](https://fiyatavcisi.com) · [App](https://app.fiyatavcisi.com)
-
-## Technology
-
-**Desktop**  
-`Flutter` `C++` `Win32` `Electron`
-
-**Web**  
-`TypeScript` `React` `Next.js` `Vite`
-
-**Backend**  
-`Node.js` `Express`
-
-**Data**  
-`PostgreSQL` `Redis` `SQLite`
-
-## Activity
-
-GitHub statistics
-
-<img src="https://github-readme-stats.shion.dev/api?username=Regncreative&show_icons=true&theme=transparent&hide_border=true&title_color=8A7048&icon_color=8A7048&text_color=8b949e&ring_color=8A7048" alt="GitHub stats">
-
-Most used languages
-
-<img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Regncreative&layout=compact&theme=transparent&hide_border=true&title_color=8A7048&text_color=8b949e" alt="Most used languages">
-
-Contribution activity
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Regncreative&custom_title=Contribution&bg_color=00000000&color=8b949e&line=8A7048&point=C5A572&area=true&hide_border=true&area_color=8A7048" alt="Contribution graph" width="100%">
-
-## Approach
+<small>APPROACH</small>
 
 Graphic Design  
-↓  
-Visual Systems  
-↓  
-UI / UX  
-↓  
-Software  
-↓  
-Products
+→ Visual Systems  
+→ UI / UX  
+→ Software  
+→ Products
 
-Regn Software treats interface language as part of the architecture. Hierarchy, material, and native behavior are specified with the same discipline as the service underneath. Local-first where it matters. Read-only where the system should not be touched.
+Regn Software treats interface language, product behavior, and visual systems as one practice. Hierarchy and native feel are specified with the same discipline as the service underneath. Local-first where it matters. Read-only where the system should not be touched.
 
-## Contact
+<small>CONTACT</small>
 
-[Website](https://www.regnsoftware.com) · [GitHub](https://github.com/Regncreative) · [LinkedIn](https://www.linkedin.com/in/ozsinan)
+[Website](https://www.regnsoftware.com)  
+[GitHub](https://github.com/Regncreative)  
+[LinkedIn](https://www.linkedin.com/in/ozsinan)
