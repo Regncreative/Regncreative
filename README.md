@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/wordmark-dark.svg">
-  <img src="./assets/wordmark-light.svg" alt="Regn Software" width="300">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/regn-logo-dark.svg">
+  <img src="./assets/regn-logo-light.svg" alt="Regn Software" width="320">
 </picture>
 
 # Software / Products / Visual Systems

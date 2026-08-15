@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="150" viewBox="0 0 560 150" role="img" aria-label="Regn Software">
+  <g fill="#F0F6FC">
+    <g transform="translate(12 20)">
+      <path d="M6 30 C 24 4, 50 -4, 74 6 C 90 13, 104 16, 120 6 C 110 30, 86 40, 62 30 C 44 23, 26 18, 12 34 C 9 37, 6 34, 6 30 Z"/>
+      <path d="M14 68 C 32 42, 58 34, 82 44 C 98 51, 112 54, 128 44 C 118 68, 94 78, 70 68 C 52 61, 34 56, 20 72 C 17 75, 14 72, 14 68 Z"/>
+      <path d="M4 104 C 15 89, 31 85, 46 91 C 56 95, 64 96, 74 91 C 67 106, 52 112, 37 106 C 27 102, 17 100, 9 108 C 7 110, 4 107, 4 104 Z"/>
+    </g>
+    <text x="196" y="76" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="60" font-weight="400" letter-spacing="26">REGN</text>
+    <text x="206" y="116" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="13.5">SOFTWARE</text>
+  </g>
+</svg>
