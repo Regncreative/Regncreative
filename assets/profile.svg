@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="420" viewBox="0 0 400 420" role="img" aria-label="Sinan Öz — founder, design &amp; engineering. Focus: desktop, web, UI/UX. Origin: graphic design. Based in Turkey.">
+<style>
+.s{font-family:'Segoe UI Variable Display','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Inter,Arial,sans-serif} .m{font-family:ui-monospace,'Cascadia Code',SFMono-Regular,Consolas,Menlo,monospace} .r{font-family:Georgia,'Times New Roman',serif}
+@keyframes drift{0%,100%{transform:translateX(0)}50%{transform:translateX(30px)}}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+@keyframes beat{0%,100%{transform:scale(1)}50%{transform:scale(1.4)}}
+.w1{animation:drift 7s ease-in-out infinite}.w2{animation:drift 7s ease-in-out -2.3s infinite}.w3{animation:drift 7s ease-in-out -4.6s infinite}
+.live{animation:blink 2.4s ease-in-out infinite}
+.beat{transform-box:fill-box;transform-origin:center;animation:beat 1.6s ease-in-out infinite}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs><clipPath id="clip"><rect width="384" height="404" rx="26"/></clipPath><linearGradient id="av" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E8D3A6"/><stop offset="1" stop-color="#8A7048"/></linearGradient></defs>
+<g transform="translate(8,8)">
+<g clip-path="url(#clip)"><rect width="384" height="404" fill="#101318"/></g>
+<rect x="1" y="1" width="382" height="402" rx="25" fill="none" stroke="#23272E" stroke-width="2"/>
+
+<circle cx="80" cy="84" r="46" fill="url(#av)"/>
+<text x="80" y="97" text-anchor="middle" class="s" font-size="34" font-weight="700" fill="#0A0A0A">SÖ</text>
+<text x="344" y="61" text-anchor="end" class="m" font-size="12" letter-spacing="2" fill="#8B949E">FOUNDER</text>
+<text x="34" y="186" class="s" font-size="34" font-weight="700" letter-spacing="-.6" fill="#F0F3F6">Sinan Öz</text>
+<text x="35" y="216" class="s" font-size="17" fill="#8B949E">Design &amp; engineering</text>
+<rect x="34" y="250" width="316" height="1" fill="#23272E"/><text x="34" y="276" class="m" font-size="12" letter-spacing="2" fill="#C5A572">FOCUS</text><text x="350" y="276" text-anchor="end" class="s" font-size="17" fill="#F0F3F6">Desktop · Web · UI/UX</text>
+<rect x="34" y="294" width="316" height="1" fill="#23272E"/><text x="34" y="320" class="m" font-size="12" letter-spacing="2" fill="#C5A572">ORIGIN</text><text x="350" y="320" text-anchor="end" class="s" font-size="17" fill="#F0F3F6">Graphic design</text>
+<rect x="34" y="338" width="316" height="1" fill="#23272E"/><text x="34" y="364" class="m" font-size="12" letter-spacing="2" fill="#C5A572">BASED</text><text x="350" y="364" text-anchor="end" class="s" font-size="17" fill="#F0F3F6">Turkey · GMT+3</text>
+</g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="130" viewBox="0 0 400 130" role="img" aria-label="WEBSITE: regnsoftware.com">
+<style>
+.s{font-family:'Segoe UI Variable Display','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Inter,Arial,sans-serif} .m{font-family:ui-monospace,'Cascadia Code',SFMono-Regular,Consolas,Menlo,monospace} .r{font-family:Georgia,'Times New Roman',serif}
+@keyframes drift{0%,100%{transform:translateX(0)}50%{transform:translateX(30px)}}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+@keyframes beat{0%,100%{transform:scale(1)}50%{transform:scale(1.4)}}
+.w1{animation:drift 7s ease-in-out infinite}.w2{animation:drift 7s ease-in-out -2.3s infinite}.w3{animation:drift 7s ease-in-out -4.6s infinite}
+.live{animation:blink 2.4s ease-in-out infinite}
+.beat{transform-box:fill-box;transform-origin:center;animation:beat 1.6s ease-in-out infinite}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs><clipPath id="clip"><rect width="384" height="114" rx="26"/></clipPath></defs>
+<g transform="translate(8,8)">
+<g clip-path="url(#clip)"><rect width="384" height="114" fill="#101318"/></g>
+<rect x="1" y="1" width="382" height="112" rx="25" fill="none" stroke="#23272E" stroke-width="2"/>
+
+<rect x="28" y="35" width="44" height="44" rx="12" fill="#161A20" stroke="#2A2F37"/>
+<g transform="translate(28,35)"><circle cx="22" cy="22" r="13" fill="none" stroke="#C5A572" stroke-width="2"/><ellipse cx="22" cy="22" rx="5.5" ry="13" fill="none" stroke="#C5A572" stroke-width="2"/><path d="M9 22h26M11 15h22M11 29h22" stroke="#C5A572" stroke-width="1.6"/></g>
+<text x="90" y="52" class="m" font-size="11.5" letter-spacing="2" fill="#6E7681">WEBSITE</text>
+<text x="90" y="78" class="s" font-size="20" font-weight="600" fill="#F0F3F6">regnsoftware.com</text>
+<path d="M342 63 L354 51 M345 51 H354 V60" stroke="#C5A572" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
