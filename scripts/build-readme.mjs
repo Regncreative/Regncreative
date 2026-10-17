@@ -32,11 +32,14 @@ const logo = (x, y, h, fill) => `<svg x="${x}" y="${y}" width="${h * 4.2}" heigh
 const fiyatShapes = (readFileSync(join(SCRIPTS, "src", "fiyat-logo.svg"), "utf8").match(/<(path|circle)[^>]*\/>/g) || [])
   .map((s) => s.replace(/class="st0"/, 'fill="#43A9FE"').replace(/class="st1"/, 'fill="#0063FE"')).join("");
 const icon = {
-  pulse: (x, y, s) => `<g transform="translate(${x},${y}) scale(${s})"><rect width="96" height="96" rx="22" fill="#1C1F24" stroke="#2A2F36"/>
-<g transform="scale(.375)" fill="none" stroke="#5BC8FA" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"><polyline points="42,148 80,148 110,64 142,148 214,148"/></g>
-<circle class="beat" cx="41.25" cy="24" r="6.4" fill="#5BC8FA"/></g>`,
-  stash: (x, y, s) => `<g transform="translate(${x},${y}) scale(${s})"><rect width="96" height="96" rx="22" fill="#2563EB"/>
-<g fill="#fff" transform="scale(.1875)"><rect x="144" y="155" width="224" height="44" rx="22"/><rect x="144" y="239" width="224" height="44" rx="22"/><rect x="144" y="323" width="224" height="44" rx="22"/></g></g>`,
+  pulse: (x, y, s) => `<g transform="translate(${x},${y}) scale(${s})"><rect width="96" height="96" rx="21" fill="#C8F04A"/>
+<g transform="scale(3) translate(6.08 6.08) scale(.62)" fill="none" stroke="#08080A" stroke-width="2.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 23 L10 23 L14.5 7 L19 23 L28 23"/>
+<circle class="beat" cx="14.5" cy="7" r="2.25" fill="#08080A" stroke="none"/></g></g>`,
+  wedge: (x, y, s) => `<g transform="translate(${x},${y}) scale(${s})"><defs><clipPath id="wt"><rect width="64" height="64" rx="15"/></clipPath>
+<linearGradient id="wbg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2B2C3A"/><stop offset="1" stop-color="#14151C"/></linearGradient></defs>
+<g transform="scale(1.5)"><g clip-path="url(#wt)"><rect width="64" height="64" fill="url(#wbg)"/>
+<rect x="23" y="12" width="51" height="11" rx="5.5" fill="#8D97FF"/><rect x="11" y="26.5" width="63" height="11" rx="5.5" fill="#FF7FAC"/><rect x="27" y="41" width="47" height="11" rx="5.5" fill="#F6BB45"/></g>
+<rect x=".5" y=".5" width="63" height="63" rx="14.5" fill="none" stroke="#FFFFFF" stroke-opacity=".08"/></g></g>`,
   fiyat: (x, y, s) => `<g transform="translate(${x},${y}) scale(${s})"><rect width="96" height="96" rx="22" fill="#0D1A33" stroke="#1B2B4A"/>
 <g transform="translate(17,17) scale(.0352) translate(-171,-127)">${fiyatShapes}</g></g>`,
 };
@@ -78,21 +81,21 @@ const arrow = (x, y, color = C.muted) => `<path d="M${x} ${y + 12} L${x + 12} ${
 
 // ── Data ─────────────────────────────────────────────────────────────────────
 const products = [
-  { k: "pulse", name: "Pulse", cat: "Windows observability", accent: "#5BC8FA", status: "SHIPPED",
+  { k: "pulse", name: "Pulse", cat: "Windows observability", accent: "#C8F04A", status: "SHIPPED",
     line: ["Read-only diagnostics for Windows.", "Event Log in plain language."], stack: ["Flutter", "C++20", "Win32"],
     repo: "Regncreative/Pulse", site: "https://pulse.regncreative.com",
     alt: "Pulse — Windows observability. Read-only diagnostics for Windows: Event Log activity in plain language, live system health, hardware inventory and local reports. Flutter, C++20, Win32. Shipped." },
-  { k: "stash", name: "Stash", cat: "File shelf for Windows", accent: "#3B82F6", status: "SHIPPED",
-    line: ["A file shelf in the system tray.", "References only — files stay put."], stack: ["Electron", "React", "SQLite"],
-    repo: "Regncreative/Stash", site: "https://stash.regncreative.com",
-    alt: "Stash — File shelf for Windows. Drop files onto shelves in the system tray, pin what matters, drag them back into any app. Electron, React, SQLite. Shipped." },
+  { k: "wedge", name: "Wedge", cat: "File shelf for Windows", accent: "#8D97FF", status: "SHIPPED",
+    line: ["A file shelf on the edge of", "your screen. Drag files in and out."], stack: ["Tauri", "Rust", "React"],
+    repo: "Regncreative/Wedge", site: "https://wedge.regncreative.com",
+    alt: "Wedge — File shelf for Windows. Park files on the edge of your screen while you work and drag them out when you need them. Tauri, Rust, React. Shipped." },
   { k: "fiyat", name: "Fiyat Avcısı", cat: "Price intelligence", accent: "#43A9FE", status: "LIVE",
     line: ["Self-hostable price tracking with", "history, alerts and crawlers."], stack: ["React", "PostgreSQL", "Redis"],
     repo: "Regncreative/fiyat-avcisi", site: "https://fiyatavcisi.com",
     alt: "Fiyat Avcısı — E-commerce price intelligence. Self-hostable price tracking with scheduled crawling, price history and alerts. React, PostgreSQL, Redis. Live." },
 ];
 const stack = [
-  ["DESKTOP", ["Flutter", "Dart", "C++20", "CMake", "Electron"]],
+  ["DESKTOP", ["Flutter", "Dart", "C++20", "Rust", "Tauri"]],
   ["WEB", ["TypeScript", "React", "Next.js", "Vite", "Tailwind"]],
   ["DATA", ["Node.js", "Express", "PostgreSQL", "Redis", "SQLite"]],
   ["SYSTEM", ["Win32", "Named pipes", "BullMQ", "PowerShell"]],
